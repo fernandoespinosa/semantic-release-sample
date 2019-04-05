@@ -1,11 +1,12 @@
 {
   "name": "@sample-packages/semantic-release-sample",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "git@github.com:fernandoespinosa/semantic-release-sample.git",
   "author": "Fernando Espinosa <fernandoespinosa@fernandoespinosa.org>",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/git": "^7.0.8",
     "semantic-release": "^15.13.3"
   },
   "scripts": {
@@ -13,5 +14,14 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
   }
 }
