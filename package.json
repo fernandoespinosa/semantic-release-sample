@@ -1,6 +1,6 @@
 {
   "name": "@sample-packages/semantic-release-sample",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "git@github.com:fernandoespinosa/semantic-release-sample.git",
   "author": "Fernando Espinosa <fernandoespinosa@fernandoespinosa.org>",
