@@ -1,8 +1,8 @@
 {
-  "name": "semantic-release-sample",
-  "version": "1.0.0",
+  "name": "@sample-packages/semantic-release-sample",
+  "version": "0.0.0-alpha.0",
   "main": "index.js",
   "repository": "git@github.com:fernandoespinosa/semantic-release-sample.git",
-  "author": "Fernando Espinosa <fernando@polymath.network>",
+  "author": "Fernando Espinosa <fernandoespinosa@fernandoespinosa.org>",
   "license": "MIT"
 }
