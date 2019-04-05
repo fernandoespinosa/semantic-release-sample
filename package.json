@@ -1,11 +1,17 @@
 {
   "name": "@sample-packages/semantic-release-sample",
-  "version": "0.0.0-alpha.0",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:fernandoespinosa/semantic-release-sample.git",
   "author": "Fernando Espinosa <fernandoespinosa@fernandoespinosa.org>",
   "license": "MIT",
   "devDependencies": {
     "semantic-release": "^15.13.3"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release --no-ci"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
