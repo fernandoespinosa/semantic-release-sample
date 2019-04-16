@@ -1,4 +1,4 @@
-# Sample
+# Build Configuration
 
 - VCS Root:
   - Branch specification: `EMPTY`
