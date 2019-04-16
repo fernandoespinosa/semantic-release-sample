@@ -12,3 +12,10 @@ echo "##teamcity[buildNumber '0.0.0-$GIT_HASH_SHORT.$BUILD_COUNTER']"
 
 exit 0
 ```
+
+- VCS Root:
+  - Branch specification: `EMPTY`
+- VCS Settings:
+  - Allow builds in the default branch: `FALSE`
+- VCS Trigger:
+  - Branch filter: `+:*`
