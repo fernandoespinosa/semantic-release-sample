@@ -1,18 +1,14 @@
 # Sample
 
-1...
-2...
-
 
 ```
 #!/bin/bash
 
-BUILD_NUMBER=%build.number%
 GIT_HASH=%build.vcs.number%
 GIT_HASH_SHORT=${GIT_HASH:0:7}
+BUILD_COUNTER=%build.counter%
 
-
-echo "##teamcity[buildNumber '$BUILD_NUMBER.${GIT_HASH_SHORT}']"
+echo "##teamcity[buildNumber '0.0.0-$GIT_HASH_SHORT.$BUILD_COUNTER']"
 
 exit 0
 ```
