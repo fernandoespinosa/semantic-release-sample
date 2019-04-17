@@ -13,7 +13,6 @@
     "semantic-release": "^15.13.3"
   },
   "scripts": {
-    "semantic-release": "semantic-release --no-ci"
   },
   "publishConfig": {
     "access": "public"
