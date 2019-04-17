@@ -10,10 +10,9 @@
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/git": "^7.0.8",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.12"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "publishConfig": {
     "access": "public"
   }
