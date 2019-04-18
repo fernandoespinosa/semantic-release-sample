@@ -9,7 +9,7 @@
   "author": "Fernando Espinosa <fernandoespinosa@fernandoespinosa.org>",
   "license": "MIT",
   "devDependencies": {
-    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/git": "^7.1.0-beta.3",
     "semantic-release": "^16.0.0-beta.18"
   },
   "scripts": {},
