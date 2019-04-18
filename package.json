@@ -2,10 +2,6 @@
   "name": "@sample-packages/semantic-release-sample",
   "version": "1.1.0",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fernandoespinosa/semantic-release-sample.git"
-  },
   "author": "Fernando Espinosa <fernandoespinosa@fernandoespinosa.org>",
   "license": "MIT",
   "devDependencies": {
