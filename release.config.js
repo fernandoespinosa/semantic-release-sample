@@ -1,4 +1,5 @@
 module.exports = {
+    repositoryUrl: 'https://github.com/fernandoespinosa/semantic-release-sample.git',
     branches: [
         '+([1-9])?(.{+([1-9]),x}).x',
         'master',
