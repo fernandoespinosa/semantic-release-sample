@@ -20,4 +20,4 @@
     ```
 
 - VCS Trigger:
-  - Branch filter: `+:*`
+  - Branch filter: `EMPTY`
